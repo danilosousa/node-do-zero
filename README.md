@@ -1,8 +1,8 @@
-🚀 Node do Zero - CRUD API
+Node do Zero - CRUD API
 
 Projeto simples de API RESTful desenvolvido com Node.js, com foco em aprendizado e prática de conceitos fundamentais como criação de rotas, integração com banco de dados e deploy.
 
-📌 Sobre o projeto
+Sobre o projeto
 
 Este projeto é um CRUD básico (Create, Read, Update, Delete) que permite gerenciar dados através de uma API construída do zero utilizando Node.js.
 
@@ -12,7 +12,9 @@ Estruturação de API REST
 Manipulação de dados
 Integração com banco de dados
 Deploy em produção
-🛠️ Tecnologias utilizadas
+
+Tecnologias utilizadas
+
 Node.js
 Banco de dados: Neon (PostgreSQL serverless)
 Deploy: Render
@@ -23,3 +25,14 @@ Criar registros
 Listar registros
 Atualizar registros
 Deletar registros
+
+Como testar a API
+
+As requisições podem ser testadas utilizando o Insomnia ou qualquer ferramenta similar como Postman.
+
+Exemplo de endpoints:
+
+GET https://node-do-zero-01se.onrender.com/recipes
+POST https://node-do-zero-01se.onrender.com/recipes
+PUT https://node-do-zero-01se.onrender/items/:id
+DELETE https://node-do-zero-01se.onrender./items/:id
