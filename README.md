@@ -33,6 +33,9 @@ As requisições podem ser testadas utilizando o Insomnia ou qualquer ferramenta
 Exemplo de endpoints:
 
 GET https://node-do-zero-01se.onrender.com/recipes
+
 POST https://node-do-zero-01se.onrender.com/recipes
+
 PUT https://node-do-zero-01se.onrender/items/:id
+
 DELETE https://node-do-zero-01se.onrender./items/:id
